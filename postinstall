@@ -1,2 +1,4 @@
 #!/bin/sh
+god terminate || echo "(ignore the error on the previous line. these aren't the droids you're looking for)"
 god -c unicorn.god
+god.status
